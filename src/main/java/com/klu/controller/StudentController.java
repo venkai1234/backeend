@@ -22,7 +22,7 @@ import com.klu.service.StudentManager;
 @RestController
 @RequestMapping("/dbcrud")
 @ResponseBody
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "*")
 public class StudentController 
 {
 	@Autowired
